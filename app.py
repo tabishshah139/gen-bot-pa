@@ -9,6 +9,9 @@ from discord.utils import get
 from discord import Game
 import os
 
+from discord import Activity, ActivityType
+
+
 client = commands.Bot(command_prefix='+')
 #client = discord.Client()
 Clientdiscord = discord.Client()
