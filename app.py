@@ -145,7 +145,7 @@ async def on_ready():
 
 @tasks.loop(seconds=5)
 async def change_status():
-        await client.change_presence(activity=Activity(name=f"{len(client.guilds)} servers!| !help | Members ", 
+        await client.change_presence(activity=Activity(name=f"{len(client.guilds)} servers!| +help | Members ", 
                                                 type=ActivityType.watching))
 
 client.run(os.getenv('BOT_TOKEN'))
