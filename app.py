@@ -18,7 +18,7 @@ Clientdiscord = discord.Client()
 
 
 #create an arraylist containing phrases you want your bot to switch through.
-status = cycle(['+help', '+stock', '+spotify', '+origin', '+steam', '+hulu', '+fortnite', '+minecraft', '+uplay'])
+status = cycle(['+help', '+stock', '+spotify', '+origin', '+steam', '+hulu', '+fortnite', '+minecraft', '+uplay', 'wwe', 'pornhub', 'mail'])
 
 client.remove_command('help')
 
