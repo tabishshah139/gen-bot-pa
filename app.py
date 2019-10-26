@@ -63,8 +63,8 @@ async def on_message(message):
         await message.author.send(msg + (random.choice(randomlist)))
 
     if message.content.startswith('+stock'):
-        await message.author.send("Origin: 1000 .Hulu: 1000 .Spotify: 1000 .Fortnite: 1000 .Nordvpn: 1000 .Crunchyroll: 1000 .Uplay: 600 .Minecraft: 120")
-        await message.author.send("Available Stocks")
+        await message.author.send("Origin: 670 .Hulu: 421 .Spotify: 621 .Fortnite: 1000 .Nordvpn: 444 .Crunchyroll: 272 .Uplay: 300 .Minecraft: 441")
+        await message.author.send("Available Stocks 26 October")
         await message.author.send(" Official Server https://discord.gg/44PFcRr ")
         
 
