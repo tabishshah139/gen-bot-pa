@@ -57,12 +57,17 @@ async def on_message(message):
         await message.author.send("Note: We have added Little Advertisement.")
         await message.author.send(" You Can Get more than 50 Accounts by seeing advertisement 1 time. ")
         await message.author.send("Watch Advertisement and Recieve Alot Accounts Thank You.")
-        await message.author.send(":one: Mail Access ( https://link-to.net/41622/mailaccc4 ) 150x Mail Access Accounts list 4 ")
-        await message.author.send(" :two: Minecraft Accounts ( https://up-to-down.net/41622/minets3 ) 149x Minecraft Accounts list 3 ")
+        await message.author.send(":one: Mail Access ( https://link-to.net/41622/mailaccc4 ) 150x Mail Access Accounts list 1")
+        await message.author.send(" :two: Minecraft Accounts ( https://up-to-down.net/41622/minets3 ) 149x Minecraft Accounts list 1")
         await message.author.send(" :three: Hulu Accounts ( https://link-to.net/41622/hulu11 ) 1000x Hulu Accounts list 1. ")    
         await message.author.send(":four: Netflix Accounts ( https://link-to.net/41622/netflixe ) 200x Netflix Accounts list 1.")
-
-
+        await message.author.send(":five: Spotify Accounts ( https://up-to-down.net/41622/spotify3 ) 200x Spotify Accounts list 1.")
+        await message.author.send(":six: Nitro Codes ( https://link-to.net/41622/coddes4 ) 240x Nitro Codes list 1")
+        await message.author.send(":seven: Crunchyroll Accounts ( https://link-to.net/41622/crunch2 ). 67x Crunchyroll Accounts list 1")
+        await message.author.send(":eight: Nord Vpn Accounts ( https://link-to.net/41622/norde3 ) 200x nordVPN Accounts list 3.")
+        await message.author.send(":nine: Origin Accounts ( https://up-to-down.net/41622/origin101 ) 74x Origin Accounts list 1. ")   
+        
+        
 
 @client.event
 async def on_ready():
