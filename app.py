@@ -18,7 +18,7 @@ Clientdiscord = discord.Client()
 
 
 #create an arraylist containing phrases you want your bot to switch through.
-status = cycle(['+help', '+stock', '+spotify', '+origin', '+steam', '+hulu', '+fortnite', '+minecraft', '+uplay', 'wwe', 'pornhub', 'mail'])
+status = cycle(['+help', '+gen'])
 
 client.remove_command('help')
 
@@ -44,13 +44,13 @@ async def on_message(message):
     if message.content.startswith('+help'):
         await message.author.send(" https://discord.gg/44PFcRr ")
         await message.author.send("You Can Invite This Bot To Your Server +invite")
-        await message.author.send("Rare Account Generating Bot")
-        await message.author.send("You Can Check Available Stock In BOT +stock")
+        await message.author.send("Rare Account Generating Bot type +gen")
+        await message.author.send("You Can Check generate all accounts type +gen")
 
 
 
 
-    if message.content.startswith('+stock'):
+    if message.content.startswith('+gen'):
         await message.author.send("```Origin: 670 .Hulu: 421 .Spotify: 621 .Fortnite: 1000 .Nordvpn: 444 .Crunchyroll: 272 .Uplay: 300 .Minecraft: 441```")
         await message.author.send("```Available Stocks 17 November```")
         await message.author.send(" Official Server https://discord.gg/SzffkfK ")
