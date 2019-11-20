@@ -106,18 +106,7 @@ async def on_message(message):
         msg = ' ' + author + '. Hulu Account : '
         await message.author.send(msg + (random.choice(randomlist)))
 
-    if message.content.startswith('+nitro'):
-        randomlist = [' ']
-        await message.author.send("Note: We have added Little Advertisement.")
-        await message.author.send("You Can Get more than 50 Accounts by seeing advertisement 1 time.")
-        await message.author.send("Watch Advertisement and Recieve Alot Accounts Thank You.")
-        await message.author.send(":one: ( https://link-to.net/41622/code1 ) 200x Nitro Codes list 1.")
-        await message.author.send(":two: ( https://link-to.net/41622/codes2 ) 200x Nitro Codes list 2.")
-        await message.author.send(":three: ( https://link-to.net/41622/coded3 ) 200x Nitro Codes list 3.")
-        await message.author.send(":four: ( https://link-to.net/41622/coddes4 ) 240x Nitro Codes list 4")
-        await message.author.send(" Join Tabish Gen Official CM** https://discord.gg/SzffkfK ")  
-        msg = ' ' + author + '. Nitro Codes : '
-        await message.author.send(msg + (random.choice(randomlist)))
+
 
 
 
