@@ -119,16 +119,7 @@ async def on_message(message):
         msg = ' ' + author + '. Nitro Codes : '
         await message.author.send(msg + (random.choice(randomlist)))
 
-    if message.content.startswith('+crunchyroll'):
-        randomlist = [' ']
-        await message.author.send("Note: We have added Little Advertisement.")
-        await message.author.send("You Can Get more than 50 Accounts by seeing advertisement 1 time .")
-        await message.author.send("Watch Advertisement and Recieve Alot Accounts Thank You.")
-        await message.author.send(":one: ( https://link-to.net/41622/crunchy1 ). 60x Crunchyroll Accounts list 1")
-        await message.author.send(":two: ( https://link-to.net/41622/crunch2 ). 67x Crunchyroll Accounts list 2")
-        await message.author.send(" Join Tabish Gen Official CM** https://discord.gg/SzffkfK ") 
-        msg = ' ' + author + '. Crunchyroll Accounts : '
-        await message.author.send(msg + (random.choice(randomlist)))
+
 
 
                                   
