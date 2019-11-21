@@ -41,10 +41,6 @@ async def on_message(message):
     if message.content.startswith('+invite'):
         await message.author.send("Click To Invite Bot In Your Server https://discordapp.com/api/oauth2/authorize?client_id=619923933109420097&permissions=0&scope=bot")
 
-
-        
- 
-        
     if message.content.startswith('+gen'):
         await message.author.send("```Origin: 670 .Hulu: 421 .Spotify: 621 .Fortnite: 1000 .Nordvpn: 444 .Crunchyroll: 272 .Uplay: 300 .Minecraft: 441```")
         await message.author.send("```Available Stocks 17 November```")
@@ -77,3 +73,7 @@ async def change_status():
                                                 type=ActivityType.watching))
 
 client.run(os.getenv('BOT_TOKEN'))
+
+ if message.content == '!hulu', '-hulu', '!crunchyroll', '-crunchyroll', '!nordvpn', '-nordvpn', '!pornhub', '-pornhub', '!minecraft', '-minecraft', '!wwe', '-wwe', '!mailaccess', '-mailaccess', '!origin', '-origin', '!hbo', '-hbo', '!pubg', '-pubg', '!minty', '-minty', '!ebay', '-ebay', '!nitro', '-nitro', '!gen uplay', '+stock', '-stock', '!stock', '>stock', '+stocks', '-stocks', '!stocks', '>stocks', '!invite', '-invite', '!help', '!gen', '-gen', '!gen', '-help', '!gen fortnite', '!fortnite', '-fortnite', '!steam', '!spotify', '-spotify', '-steam', '!uplay', '-uplay', '!netflix', '-netflix', '+fortnite', '+steam', '+uplay', '+origin', '+minecraft', '+minty', '+nitro', '+spotify', '+hulu', '+crunchyroll', '+nordvpn', '+pornhub', '+hbo', '+mailaccess', '+netflix', '+giftcard'):
+        await message.author.send("```Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen``")
+     
