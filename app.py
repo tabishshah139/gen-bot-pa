@@ -17,8 +17,8 @@ client = commands.Bot(command_prefix='+')
 Clientdiscord = discord.Client()
 
 
-#create an arraylist containing phrases you want your bot to switch through.
-status = cycle(['+help', '+gen'])
+
+status = cycle(['+gen'])
 
 client.remove_command('help')
 
@@ -36,32 +36,33 @@ async def on_message(message):
     if message.content.startswith('+hello'):
         msg = 'Hello python {0.author.mention}'.format(message)
         await message.author.send(msg)
-        
-    if(message.content == '+stock', '-stock', '!stock', '>stock', '+stocks', '-stocks', '!stocks', '>stocks', '!invite', '-invite', '!help', '!gen', '-gen', '!gen', '-help', '!gen fortnite', '!fortnite', '-fortnite', '!steam', '!spotify', '-spotify', '-steam', '!uplay', '-uplay', '!netflix', '-netflix'):
-        await message.author.send("```Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen```")
 
-
-
-    if message.content == '!hulu', '-hulu', '!crunchyroll', '-crunchyroll', '!nordvpn', '-nordvpn', '!pornhub', '-pornhub', '!minecraft', '-minecraft', '!wwe', '-wwe', '!mailaccess', '-mailaccess', '!origin', '-origin', '!hbo', '-hbo', '!pubg', '-pubg', '!minty', '-minty', '!ebay', '-ebay', '!nitro', '-nitro', '!gen uplay'):
-        await message.author.send("```Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen``")
-        
 
     if message.content.startswith('+invite'):
         await message.author.send("Click To Invite Bot In Your Server https://discordapp.com/api/oauth2/authorize?client_id=619923933109420097&permissions=0&scope=bot")
 
-    if message.content.startswith('+help'):
-        await message.author.send(" https://discord.gg/44PFcRr ")
-        await message.author.send("You Can Invite This Bot To Your Server +invite")
-        await message.author.send("Rare Account Generating Bot type +gen")
-        await message.author.send("You Can Check generate all accounts type +gen")
 
-
-
+        
  
         
-        
-    
+    if message.content.startswith('+gen'):
+        await message.author.send("```Origin: 670 .Hulu: 421 .Spotify: 621 .Fortnite: 1000 .Nordvpn: 444 .Crunchyroll: 272 .Uplay: 300 .Minecraft: 441```")
+        await message.author.send("```Available Stocks 17 November```")
+        await message.author.send(" Official Server https://discord.gg/SzffkfK ")
+        await message.author.send("Note: We have added Little Advertisement.")
+        await message.author.send(" You Can Get more than 50 Accounts by seeing advertisement 1 time. ")
+        await message.author.send("Watch Advertisement and Recieve Alot Accounts Thank You.")
+        await message.author.send(":one: Mail Access ( https://link-to.net/41622/mailaccc4 ) 150x Mail Access Accounts list 1")
+        await message.author.send(" :two: Minecraft Accounts ( https://up-to-down.net/41622/minets3 ) 149x Minecraft Accounts list 1")
+        await message.author.send(" :three: Hulu Accounts ( https://link-to.net/41622/hulu11 ) 1000x Hulu Accounts list 1. ")    
+        await message.author.send(":four: Netflix Accounts ( https://link-to.net/41622/netflixe ) 200x Netflix Accounts list 1.")
+        await message.author.send(":five: Spotify Accounts ( https://up-to-down.net/41622/spotify3 ) 200x Spotify Accounts list 1.")
+        await message.author.send(":six: Nitro Codes ( https://link-to.net/41622/coddes4 ) 240x Nitro Codes list 1")
+        await message.author.send(":seven: Crunchyroll Accounts ( https://link-to.net/41622/crunch2 ). 67x Crunchyroll Accounts list 1")
+        await message.author.send(":eight: Nord Vpn Accounts ( https://link-to.net/41622/norde3 ) 200x nordVPN Accounts list 3.")
+        await message.author.send(":nine: Origin Accounts ( https://up-to-down.net/41622/origin101 ) 74x Origin Accounts list 1. ") 
 
+ 
 @client.event
 async def on_ready():
     print('Logged in as')
