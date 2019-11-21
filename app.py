@@ -59,10 +59,10 @@ async def on_message(message):
         await message.author.send(":nine: Origin Accounts ( https://up-to-down.net/41622/origin101 ) 74x Origin Accounts list 1. ") 
 
 
-     if (message.content == "+fortnite" || message.content == "+stock" || message.content == "+minty")  {
-        
-        message.reply("Why would you do that");
- }
+if (message.content.toLowerCase() == 'xd', '+fortnite', '+origin', '+steam') {
+  message.reply('pong');
+}
+
  });
 
 @client.event
