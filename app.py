@@ -37,8 +37,8 @@ async def on_message(message):
         msg = 'Hello python {0.author.mention}'.format(message)
         await message.author.send(msg)
         
-    if(message.content == 'xd', 'xD', 'XD', 'Xd',):
-        await message.author.send(" wow ")
+    if(message.content == '+stock', '-stock', '!stock', '>stock', '+stocks', '-stocks', '!stocks', '>stocks', '!invite', '-invite'):
+        await message.author.send(" Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen ")
 
 
 
