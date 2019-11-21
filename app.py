@@ -60,7 +60,7 @@ async def on_message(message):
 
 
      if (message.content == "+fortnite" || message.content == "+stock" || message.content == "+minty")  
-        await message.author.send(":nine:")
+        message.reply("Why would you do that");
  
 @client.event
 async def on_ready():
