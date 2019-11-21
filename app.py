@@ -63,7 +63,8 @@ async def on_message(message):
         
         message.reply("Why would you do that");
  }
- 
+ });
+
 @client.event
 async def on_ready():
     print('Logged in as')
