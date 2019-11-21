@@ -38,7 +38,7 @@ async def on_message(message):
         await message.author.send(msg)
         
     if(message.content == '+stock', '-stock', '!stock', '>stock', '+stocks', '-stocks', '!stocks', '>stocks', '!invite', '-invite'):
-        await message.author.send(" Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen ")
+        await message.author.send("```css Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen```")
 
 
 
