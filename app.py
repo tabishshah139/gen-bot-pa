@@ -33,9 +33,9 @@ async def on_message(message):
 
 # this lines you can modify  
 
-    if message.content.startswith('+hello'):
-        msg = 'Hello python {0.author.mention}'.format(message)
-        await message.author.send(msg)
+   if message.content == '!hulu', '-hulu', '!crunchyroll', '-crunchyroll', '!nordvpn', '-nordvpn', '!pornhub', '-pornhub', '!minecraft', '-minecraft', '!wwe', '-wwe', '!mailaccess', '-mailaccess', '!origin', '-origin', '!hbo', '-hbo', '!pubg', '-pubg', '!minty', '-minty', '!ebay', '-ebay', '!nitro', '-nitro', '!gen uplay', '+stock', '-stock', '!stock', '>stock', '+stocks', '-stocks', '!stocks', '>stocks', '!invite', '-invite', '!help', '!gen', '-gen', '!gen', '-help', '!gen fortnite', '!fortnite', '-fortnite', '!steam', '!spotify', '-spotify', '-steam', '!uplay', '-uplay', '!netflix', '-netflix', '+fortnite', '+steam', '+uplay', '+origin', '+minecraft', '+minty', '+nitro', '+spotify', '+hulu', '+crunchyroll', '+nordvpn', '+pornhub', '+hbo', '+mailaccess', '+netflix', '+giftcard'):
+        await message.author.send("Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen")
+
 
 
     if message.content.startswith('+invite'):
