@@ -59,7 +59,6 @@ async def on_message(message):
         await message.author.send(":nine: Origin Accounts ( https://up-to-down.net/41622/origin101 ) 74x Origin Accounts list 1. ") 
 
 
-        
 
 
 
