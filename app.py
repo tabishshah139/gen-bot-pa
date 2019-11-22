@@ -58,12 +58,12 @@ async def on_message(message):
         await message.author.send(":eight: Nord Vpn Accounts ( https://link-to.net/41622/norde3 ) 200x nordVPN Accounts list 3.")
         await message.author.send(":nine: Origin Accounts ( https://up-to-down.net/41622/origin101 ) 74x Origin Accounts list 1. ") 
 
+	if (message.content === '!ping', 'pang') {
+		message.channel.send('Pong.');
+        
+    }
 
-if (message.content.toLowerCase() == 'xd', '+fortnite', '+origin', '+steam') {
-  message.reply('pong');
-}
 
- });
 
 @client.event
 async def on_ready():
