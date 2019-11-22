@@ -59,9 +59,8 @@ async def on_message(message):
         await message.author.send(":nine: Origin Accounts ( https://up-to-down.net/41622/origin101 ) 74x Origin Accounts list 1. ") 
 
 
-
-if (message.content == 'xd', '+stock', '+steam', '+uplay')
-        await message.author.send(":nine:")
+   if message.content == '!hulu', '-hulu', '!crunchyroll', '-crunchyroll', '!nordvpn', '-nordvpn', '!pornhub', '-pornhub', '!minecraft', '-minecraft', '!wwe', '-wwe', '!mailaccess', '-mailaccess', '!origin', '-origin', '!hbo', '-hbo', '!pubg', '-pubg', '!minty', '-minty', '!ebay', '-ebay', '!nitro', '-nitro', '!gen uplay', '+stock', '-stock', '!stock', '>stock', '+stocks', '-stocks', '!stocks', '>stocks', '!invite', '-invite', '!help', '!gen', '-gen', '!gen', '-help', '!gen fortnite', '!fortnite', '-fortnite', '!steam', '!spotify', '-spotify', '-steam', '!uplay', '-uplay', '!netflix', '-netflix', '+fortnite', '+steam', '+uplay', '+origin', '+minecraft', '+minty', '+nitro', '+spotify', '+hulu', '+crunchyroll', '+nordvpn', '+pornhub', '+hbo', '+mailaccess', '+netflix', '+giftcard'):
+        await message.author.send("```Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen```")
 
 
 @client.event
