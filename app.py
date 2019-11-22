@@ -60,7 +60,7 @@ async def on_message(message):
 
 
 
-if (message.content.toLowerCase() == 'xd', '+stock', '+steam', '+uplay')
+if (message.content == 'xd', '+stock', '+steam', '+uplay')
         await message.author.send(":nine:")
 
 
